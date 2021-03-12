@@ -3,8 +3,8 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto',sans-serif;
-
-   
+    color: #692340
+    ;
 }
 .container-fluid{
     max-width:1440px;
@@ -117,11 +117,9 @@ body{
 }
 .active{
     border-bottom: 1px solid #692340;
-    color: #692340;
 }
 .intro__nav-link:hover{
     border-bottom: 1px solid #692340;
-    color: #692340;
 }
 .intro__content{
     width: 634px;
@@ -172,7 +170,6 @@ body{
     font-weight: 400;
     line-height: 21px;
     text-align: left;
-    color: #692340;
 }
 .membership-page__header{
     margin-bottom: 169px;
@@ -252,7 +249,6 @@ body{
     font-weight: 400;
     text-align: center;
     width: 470px;
-    color: #692340;
 }
 .top-right_title1{
     font-size: 112px;
@@ -278,7 +274,6 @@ body{
     font-size: 20px;
     padding: 0px 200px;
     text-align: center;
-    color: #692340;
 }
 .membership-page__body-footer-title{
     font-family: 'Roboto',sans-serif;
@@ -298,7 +293,6 @@ body{
 .card-fluid{
     display: flex;
     justify-content: space-between;
-    color: #692340;
     font-family: 'Roboto',sans-serif;
     font-weight: 400;
     text-align: left;
@@ -346,7 +340,6 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
-    color: #692340;
     padding-bottom: 100px;
     position: relative;
 }
@@ -451,4 +444,120 @@ body{
 .go-form__btn:hover{
     background: rgba(105, 35, 64,0.5);
     color:white
+}
+.inspration{
+    max-width: 1440px;
+    padding: 0px 100px;
+    height: 1191px;
+    text-align: center;
+    padding-top: 118px;
+
+}
+.inspration-title{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 55px;
+}
+.inspration-content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 119px;
+    margin-bottom: 54px;
+}
+.business-tips{
+    text-align: left;
+}
+.business-tips:not(:first-child){
+    text-align: left;
+    margin-left: 100px
+}
+.business-tips-title-small{
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 55px;   
+}
+.business-tips-title-big{
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 31px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;    
+}
+.business-tips-text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+}
+.ready{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;    
+}
+.business-tip-btn{
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    border: 1px solid #692340;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: #692340;
+    transition: 0.3s;
+}
+.inspration-btns{
+    display: flex;
+    justify-content: space-around;
+}
+.business-tip-btn:hover{
+    border: 1px solid white;
+    color: white;
+    background:#692340
+}
+.place{
+    height: 577px;
+    background:#692340;
+    color: #FBEECA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.place-title{
+    font-size: 74px;
+    font-weight: 400;
+    line-height: 74px;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    margin-bottom: 36px;
+}
+.place-content{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.place-btn{
+    margin-top: 300px;
+    padding: 20px 40px;
+    background: #FBEECA;
+    text-decoration: none;
+    color:#692340;
+    border:1px solid #FBEECA;
+    transition: 0.5s;
+}
+.place-btn:hover{
+    background:none;
+    color:#FBEECA
+}
+.place-content-bottom{
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    
 }
