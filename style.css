@@ -468,10 +468,11 @@ body{
 }
 .business-tips{
     text-align: left;
+    padding: 20px;
 }
 .business-tips:not(:first-child){
     text-align: left;
-    margin-left: 100px
+    margin-left: 60px
 }
 .business-tips-title-small{
     display: block;
@@ -560,4 +561,101 @@ body{
     font-weight: 400;
     line-height: 21px;
     
+}
+.footer{
+    background: #EFEEEA;
+    color: #241C15;
+    padding-top: 118px;
+}
+.footer-top{
+    padding: 0px 150px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom:2px solid  #8C8C8C;
+}
+.products-item{
+    list-style-type: none;
+    margin-top: 13px;
+}
+.en{
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;    
+}
+.products-link{
+    font-family: 'Roboto',sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    color:#241C15;
+    text-decoration: none;    
+}
+.products:last-child{
+    margin-top: 17px;
+    width: 150px;
+    margin-left: 30px;
+}
+.products-text{
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;  
+}
+.check{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px; 
+}
+.courier{
+    margin-top: 69px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 100px;
+}
+.footer-right{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+.footer-left{
+    margin-top: 73px;
+    width: 300px;
+}
+.iconka{
+    margin-right: 24px;
+    transition: 0.5s;
+}
+.iconka:hover{
+    scale: (1.4);
+    transform: rotate(360deg);
+}
+.read-btn{
+    padding: 10px 10px;
+    color:#241C15;
+    text-decoration: none;
+    border:1px solid #241C15;
+    transition: 0.5s;
+}
+.read-btn:hover{
+
+    background:#241C15;
+    color:white;
+}
+.iconka:first-child{
+    margin-left: 90px;
+}
+.left-text{
+    margin-top: 25px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;    
+}
+.left-text:last-child{
+    padding: 0;
+    margin-top: -10px;
+    text-align: center;
 }
